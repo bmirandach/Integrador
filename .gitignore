@@ -1,0 +1,37 @@
+# Compiled binaries and build artifacts
+*.exe
+*.dll
+*.pdb
+*.swp
+*.suo
+*.user
+*.bak
+bin/
+obj/
+
+# Package and dependency directories
+packages/
+node_modules/
+
+# IDE-specific files and directories
+.vs/
+*.sln.ide
+*.suo
+*.userprefs
+*.csproj.user
+
+# Logs and temporary files
+*.log
+*.cache
+*.tmp
+*.temp
+
+# User-specific files and configuration
+*.user
+*.suo
+*.userprefs
+
+# Visual Studio-specific files and directories
+*.vs/
+*.vscode/
+.vs/
