@@ -86,7 +86,8 @@ namespace Integrador
       //          Console.WriteLine(bin);   ---> 01111111111111111111111111111100
       //pasar el resultado a base 10
       //            Console.WriteLine("Final result: " + Convert.ToInt32("11111111111111111111111111111001", 2));    ---> -7
-      int result = Convert.ToInt32(bin, 2);
+      //int result = Convert.ToInt32(bin, 2);
+      int result = int.Parse(Convert.ToString(number >>> 1, toBase: 10));
       return result;
     }
   }
